@@ -164,7 +164,7 @@ st.write('')
 input_option = st.selectbox(
     '問7　高速で安定した第5世代通信システムのことを何というか？',
     ('選んでください','3G', '3.5G', '4G','5G')
-
+)
 input_data = None
 
 if input_option == '5G':
